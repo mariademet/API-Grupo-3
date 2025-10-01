@@ -83,4 +83,4 @@ Identificação de novos mercados emergentes nos dados.
 - Análise de Políticas Tarifárias
 - Prints/Protótipos do Dashboard (Power BI).
 - Repositório GitHub: API-Grupo-3
-- Dashboard PowerBI em Execução: <td align="center"><video src="https://www.youtube.com/embed/YDUNy8LdI48"></video></td>
+- Dashboard PowerBI em Execução: <td align="center"><video src="https://github.com/user-attachments/assets/31a69787-ca8b-44d7-b9ff-2a2385238641"></video></td>
