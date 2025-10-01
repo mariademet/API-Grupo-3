@@ -64,4 +64,3 @@ O objetivo deste projeto é desenvolver uma plataforma de BI que permita visuali
 | Feira de Soluções | dd/mm/aaaa | a fazer  | [MVP](MVP)  |
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YDUNy8LdI48" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
