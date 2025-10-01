@@ -16,11 +16,11 @@ O objetivo deste projeto é desenvolver uma plataforma de BI que permita visuali
 
 | Função        | Nome    | LinkedIn & GitHub |
 |---------------|---------|-------------------|
-| Product Owner | Mário de Oliveira Silva Júnior | [Linkedin](#) [GitHub](#) |
-| Scrum Master  | Maria Clara Demetrio dos Santos | [Linkedin](#) [GitHub](#) |
-| Team Member   | Lucas Fernando Luciano Serafim | [Linkedin](#) [GitHub](#) |
-| Team Member   | Edlaine Aparecida Marcos | [Linkedin](#) [GitHub](#) |
-| Team Member   | Danilo Henrique Gino | [Linkedin](#) [GitHub](#) |
+| Product Owner | Mário de Oliveira Silva Júnior | [GitHub](https://github.com/MarioJunior12) |
+| Scrum Master  | Maria Clara Demetrio dos Santos | [GitHub](https://github.com/mariademet) |
+| Team Member   | Lucas Fernando Luciano Serafim |  [GitHub](https://github.com/LucasFLSerafim) |
+| Team Member   | Edlaine Aparecida Marcos |  [GitHub](https://github.com/Dihmarcos85) |
+| Team Member   | Danilo Henrique Gino |  [GitHub](https://github.com/pamosa) |
 
 
 ## Product Backlog 
