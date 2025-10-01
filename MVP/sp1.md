@@ -77,6 +77,9 @@ Identificação de novos mercados emergentes nos dados.
 ---
 
 ## 📂 Anexos / Evidências
-- Prints de tela  
-- Fluxos ou protótipos  
-- Vídeo (MVP)  
+[Requisitos do Cliente] (Docs/2 - Requisitos de Cliente 1LOG - CADI.pdf)
+Slides da API 
+Relatório Sprint 1
+Análise de Políticas Tarifárias
+Prints/Protótipos do Dashboard (Power BI).
+Repositório GitHub: API-Grupo-3
