@@ -14,7 +14,7 @@ O objetivo deste projeto é desenvolver uma plataforma de BI que permita visuali
 
 ## Equipe
 
-| Função        | Nome    | LinkedIn & GitHub |
+| Função        | Nome    |  GitHub |
 |---------------|---------|-------------------|
 | Product Owner | Mário de Oliveira Silva Júnior | [GitHub](https://github.com/MarioJunior12) |
 | Scrum Master  | Maria Clara Demetrio dos Santos | [GitHub](https://github.com/mariademet) |
@@ -58,8 +58,8 @@ O objetivo deste projeto é desenvolver uma plataforma de BI que permita visuali
 
 | Sprint            | Previsão   | Status   | Histórico |
 |-------------------|------------|----------|-----------|
-| 01                | 02/10/2025 | concluída  | [MVP](#MVP)  |
-| 02                | dd/mm/aaaa | a fazer  | [MVP](#MVP)  |
-| 03                | dd/mm/aaaa | a fazer  | [MVP](#MVP)  |
-| Feira de Soluções | dd/mm/aaaa | a fazer  | [MVP](#MVP)  |
+| 01                | 02/10/2025 | concluída  | [MVP](MVP)  |
+| 02                | dd/mm/aaaa | a fazer  | [MVP](MVP)  |
+| 03                | dd/mm/aaaa | a fazer  | [MVP](MVP)  |
+| Feira de Soluções | dd/mm/aaaa | a fazer  | [MVP](MVP)  |
 
