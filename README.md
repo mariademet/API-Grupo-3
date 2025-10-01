@@ -45,3 +45,21 @@ O objetivo deste projeto é desenvolver uma plataforma de BI que permita visuali
 | 16   | Média      | Como tomador de decisões públicas, quero projetar o desempenho comercial futuro dos municípios, para apoiar decisões de longo prazo. | 6                  | Em Andamento        | 3      |
 | 17   | Baixa      | Como tomador de decisões públicas, necessito que todos os dados sejam entregues em inglês, para que possam ser utilizados em relatórios internacionais. | 2                  | Em Andamento        | 3      |
 
+
+## Competências desenvolvidas
+- Documentação de projeto ágil (backlog de produto, de sprint, briefing, etc.)  
+- Processo de desenvolvimento ágil   
+- Caracterização do produto logístico  
+- Lógica de programação básica 
+- Lógica matemática 
+- Persistência de dados em BD relacional
+
+## Registro das Sprints
+
+| Sprint            | Previsão   | Status   | Histórico |
+|-------------------|------------|----------|-----------|
+| 01                | 02/10/2025 | concluída  | [MVP](#)  |
+| 02                | dd/mm/aaaa | a fazer  | [MVP](#)  |
+| 03                | dd/mm/aaaa | a fazer  | [MVP](#)  |
+| Feira de Soluções | dd/mm/aaaa | a fazer  | [MVP](#)  |
+
