@@ -77,7 +77,7 @@ Identificação de novos mercados emergentes nos dados.
 ---
 
 ## 📂 Anexos / Evidências
-- [Requisitos do Cliente] (Docs/2 - Requisitos de Cliente 1LOG - CADI.pdf)
+- Requisitos do Cliente 
 - Slides da API 
 - Relatório Sprint 1
 - Análise de Políticas Tarifárias
