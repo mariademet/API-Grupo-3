@@ -16,7 +16,7 @@ data = {'coluna_1':[1.5,2.0,1.7,2.2,1.9],
         'coluna_5':[20.5,25.5,22.0,27.0,23.0]}
 df = pd.DataFrame(data)
 
-origem = os.path.expanduser("~/Downloads/waos/")
+origem = os.path.expanduser("~/Downloads/")
 
 arquivo_1 = origem + 'ano.csv'
 arquivo_2 = origem + 'mun.csv'
@@ -48,4 +48,5 @@ exp_final.to_csv(
     index=False,
     sep=";",
     encoding="utf-8-sig")
+
 barra_progresso(1,1, "Concluido!")
