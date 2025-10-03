@@ -17,10 +17,9 @@ data = {'coluna_1':[1.5,2.0,1.7,2.2,1.9],
 
 df = pd.DataFrame(data)
 
-origem = os.path.expanduser("~/Downloads/")
+origem = os.path.expanduser("~/Downloads/Python")
 
 arquivo_1 = origem + 'ano.csv'
-arquivo_2 = origem + 'mun.csv'
 ncm = origem + 'NCM.csv'
 pais = origem + 'pais.csv'
 estados = origem + 'estados.csv'
@@ -30,7 +29,6 @@ urf = origem + 'URF.csv'
 
 
 finalncm2024 = pd.read_csv(arquivo_1,low_memory=False,sep=';',encoding='UTF-8')
-finalmunicipio = pd.read_csv(arquivo_2,low_memory=False,sep=';',encoding='UTF-8')
 finalncm = pd.read_csv(ncm,low_memory=False,sep=';',encoding='latin1')
 finalpais = pd.read_csv(pais,low_memory=False,sep=';',encoding='latin1')
 finalestados = pd.read_csv(estados,low_memory=False,sep=';',encoding='latin1')
@@ -71,3 +69,4 @@ exp_final.to_csv(
     encoding="utf-8-sig")
 
 barra_progresso(1,1, "Concluido!")
+
