@@ -9,17 +9,10 @@ def barra_progresso(etapa_atual, total_etapas, descricao="", largura=50):
     if etapa_atual == total_etapas:
         print()
 
-data = {'coluna_1':[1.5,2.0,1.7,2.2,1.9],
-        'coluna_2':[10.0,12.0,11.5,13,11.0],
-        'coluna_3':[0,1,0,1,0],
-        'coluna_4':[1,0,1,1,0],
-        'coluna_5':[20.5,25.5,22.0,27.0,23.0]}
+origem = os.path.expanduser("~/Downloads/Python/")
 
-df = pd.DataFrame(data)
-
-origem = os.path.expanduser("~/Downloads/Python")
-
-arquivo_1 = origem + 'ano.csv'
+arquivo_1 = origem + 'EXP.csv'
+arquivo_2 = origem + 'IMP.csv'
 ncm = origem + 'NCM.csv'
 pais = origem + 'pais.csv'
 estados = origem + 'estados.csv'
@@ -27,8 +20,9 @@ municipios = origem + 'municipios.csv'
 via = origem + 'VIA.csv'
 urf = origem + 'URF.csv'
 
+finalexp = pd.read_csv(arquivo_1,low_memory=False,sep=';',encoding='UTF-8')
+finalimp = pd.read_csv(arquivo_2,low_memory=False,sep=';',encoding='UTF-8')
 
-finalncm2024 = pd.read_csv(arquivo_1,low_memory=False,sep=';',encoding='UTF-8')
 finalncm = pd.read_csv(ncm,low_memory=False,sep=';',encoding='latin1')
 finalpais = pd.read_csv(pais,low_memory=False,sep=';',encoding='latin1')
 finalestados = pd.read_csv(estados,low_memory=False,sep=';',encoding='latin1')
@@ -36,14 +30,17 @@ finalmunicipios = pd.read_csv(municipios,low_memory=False,sep=';',encoding='lati
 finalvia = pd.read_csv(via,low_memory=False,sep=';',encoding='latin1')
 finalurf = pd.read_csv(urf,low_memory=False,sep=';',encoding='latin1')
 
-exp_final = pd.concat([finalncm2024], ignore_index=True)
-exp_final = exp_final.merge(finalpais[['CO_PAIS', 'NO_PAIS_ING']],on='CO_PAIS',how='left')
-exp_final = exp_final.merge(finalncm[['CO_NCM', 'NO_NCM_ING']],on='CO_NCM',how='left')
-exp_final = exp_final.merge(finalurf[['CO_URF', 'NO_URF']],on='CO_URF',how='left')
-exp_final = exp_final.merge(finalvia[['CO_VIA', 'NO_VIA']],on='CO_VIA',how='left')
+exp_finalexp = pd.concat([finalexp], ignore_index=True)
+exp_finalimp = pd.concat([finalimp], ignore_index=True)
 
-traducao_via = {
-    "ENTRADA/SAIDA FICTA": "FICTITIOUS ENTRY/EXIT",
+def processar(df):
+    df = df.merge(finalpais[['CO_PAIS', 'NO_PAIS_ING']], on='CO_PAIS', how='left')
+    df = df.merge(finalncm[['CO_NCM', 'NO_NCM_ING']], on='CO_NCM', how='left')
+    df = df.merge(finalurf[['CO_URF', 'NO_URF']], on='CO_URF', how='left')
+    df = df.merge(finalvia[['CO_VIA', 'NO_VIA']], on='CO_VIA', how='left')
+
+    traducao_via = {
+        "ENTRADA/SAIDA FICTA": "FICTITIOUS ENTRY/EXIT",
         "VIA DESCONHECIDA": "UNKNOWN MEANS",
         "POR REBOQUE": "BY TOW/TRAILER",
         "COURIER": "COURIER",
@@ -59,14 +56,26 @@ traducao_via = {
         "FERROVIARIA": "RAIL",  
         "RODOVIARIA": "ROAD",
         "CONDUTO/REDE DE TRANSMISSAO": "CONDUIT / TRANSMISSION NETWORK",
-        "MEIOS PROPRIOS": "OWN MEANS"}
-exp_final['NO_VIA'] = exp_final['NO_VIA'].str.strip().str.upper()
-exp_final["NO_VIA"] = exp_final["NO_VIA"].map(traducao_via)
-exp_final.to_csv(
-    origem + 'exp_finalNCM.csv',
-    index=False,
-    sep=";",
-    encoding="utf-8-sig")
+        "MEIOS PROPRIOS": "OWN MEANS"
+    }
+
+    df['NO_VIA'] = df['NO_VIA'].str.strip().str.upper()
+    df["NO_VIA"] = df["NO_VIA"].map(traducao_via)
+    return df
+
+exp_finalexp = processar(exp_finalexp)
+exp_finalimp = processar(exp_finalimp)
+
+exp_finalexp.to_csv(
+    origem + 'exp_finalexp.csv', 
+    index=False, 
+    sep=';', 
+    encoding='utf-8-sig')
+
+exp_finalimp.to_csv(
+    origem + 'exp_finalimp.csv', 
+    index=False, 
+    sep=';', 
+    encoding='utf-8-sig')
 
 barra_progresso(1,1, "Concluido!")
-
