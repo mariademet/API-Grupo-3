@@ -76,7 +76,6 @@
 - Análise de Políticas Tarifárias
 - Prints/Protótipos do Dashboard (Power BI).
 - Repositório GitHub: API-Grupo-3
-- Botões de atalho em Execução: <td align="center"><video src=""></video></td>
-- Busca por Região Metropolitana em Execução: <td align="center"><video src=""></video></td>
-- Busca por SH4 em Execução: <td align="center"><video src=""></video></td>
-
+- Botões de atalho em Execução: <td align="center"><video src="https://github.com/user-attachments/assets/eebf47ab-7348-4390-ae29-f6ee42d70412"></video></td>
+- Busca por Região Metropolitana em Execução: <td align="center"><video src="https://github.com/user-attachments/assets/733700cf-4852-42ea-83e8-3fabcce5fd57"></video></td>
+- Busca por SH4 em Execução: <td align="center"><video src="https://github.com/user-attachments/assets/f25a44ff-057d-4278-a058-2171255478d2"></video></td>
