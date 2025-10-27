@@ -1,43 +1,38 @@
-# 📌 Sprint 1 - [Acompanhamento dos Resultados de Exportação e Importação com Foco no Comparativo entre Estados da Federação e de Municípios no Estado de SP ]
+# 📌 Sprint 2 - [Consolidação do Dashboard Interativo e Comparativos Detalhados de Exportação e Importação]
 
 ## 🎯 Objetivo do MVP  
-Desenvolver uma plataforma de Business Intelligence que permita acompanhar os resultados de exportação e importação do Brasil, com foco nos municípios do Estado de São Paulo.
-- Qual problema resolve? Falta de acesso intuitivo a dados confiáveis e comparativos de comércio exterior em nível municipal e estadual.  
-- Qual hipótese será validada? Uma ferramenta de BI, baseada em dados abertos do MDIC/ComexStat, pode apoiar gestores públicos, empresas e pesquisadores na identificação de tendências, riscos e oportunidades no comércio internacional.  
-- Qual valor será entregue ao usuário final? Tomada de decisão embasada em dados claros, segmentados e acessíveis, reduzindo incertezas e aumentando a competitividade regional.
+- Ampliar o projeto desenvolvido na Sprint 1, integrando os filtros de busca por produtos (SH4), comparativos entre municípios e estados, e evolução histórica da balança comercial (2023–2025) em um dashboard final no Power BI.
 
 ---
 
 ## 📝 Descrição da Solução
-O MVP consiste em uma plataforma de BI (dashboard interativo no Power BI) integrada a uma base de dados limpa e segmentada por município paulista.  
-- Funcionalidades principais incluídas
-Segmentação por estado e município.
-Ranking de exportação/importação por valor agregado.
-Evolução histórica da balança comercial (2023–2025).
-Filtros de busca por produto (código SH4).  
-- Limitações conhecidas
-Visualizações limitadas ao período inicial (2023–2025).
-Algumas funcionalidades (sazonalidade, transporte) ainda não implementadas (previstas para os próximos sprints)
-- Escopo reduzido   
-Validação do painel inicial com segmentação por municípios paulistas e identificação de mercados emergentes.
+- Comparativo entre municípios paulistas e estados da federação.
+- Filtros interativos por produto (código SH4).
+- Visualização histórica da balança comercial no período de 2023 a 2025.
+- Ranking atualizado de exportações e importações por valor e volume.
+- Layout aprimorado, com indicadores de desempenho regional e gráfico de evolução temporal.
 
 ---
 
 ## 👥 Personas / Usuários-Alvo
 - **Persona 1:** Gestor Público de Comércio Exterior, precisa monitorar desempenho dos municípios paulistas; dificuldade em acessar dados comparativos regionais e identificar tendências de mercado. 
 - **Persona 2:** Analista/Empresa Exportadora, busca entender riscos, tarifas e oportunidades internacionais; falta de clareza sobre impactos tarifários e dificuldade em planejar rotas logísticas eficientes 
+- **Persona 3:** Pesquisador Acadêmico, busca visualizar tendências históricas e regionais com base em dados abertos.
 
 ---
 
 ## 🔑 User Stories (Backlog do MVP)
 | ID  | User Story                                                                 | Prioridade | Estimativa |
 |-----|-----------------------------------------------------------------------------|------------|------------|
-| US1 | Como tomador de decisões públicas, quero que os dados coletados passem por uma limpeza inicial em linguagens de programação, para ter consistência no dashboard..         | Alta       | 8 pontos   |
-| US2 | Como tomador de decisões públicas,  preciso comparar o desempenho comercial de municípios paulistas com seus vizinhos, para identificar pontos fortes e fracos regionais.         | Alta      | 5 pontos   |
-| US3 | Como tomador de decisões públicas, quero identificar mercados emergentes internacionais, para orientar políticas de incentivo às exportações.         | Alta      | 3 pontos   |
-| US4 | Como tomador de decisões públicas, quero segmentar por Estado e Município Paulista para acessar informações detalhadas (principais cargas, ranking de exportação/importação, evolução histórica).         | Alta      | 3 pontos   |
-| US5 | Como tomador de decisões públicas, quero avaliar o impacto de políticas tarifárias, para entender riscos e oportunidades das mudanças regulatórias.         | Média      | 5 pontos   |
-| US6 | Como tomador de decisões públicas, quero que todos os dados sejam entregues em inglês, para que possam ser utilizados em relatórios internacionais.         | Baixa      | 3 pontos   |
+| US1 | Como tomador de decisões públicas quero melhorias na visualização dos gráficos, para identicar rapidamente os principais parceiros comerciais e regiões de destaque nas operações.         | Alta       | 1 pontos   |
+| US2 | Como tomador de decisões públicas quero filtrar as cidades do estado de São Paulo por Regiões Metropolitanas para uma melhor visualização.         | Alta      | 4 pontos   |
+| US3 | Como tomador de decisões públicas quero entender se os municípios concentram exportações em poucos produtos ou se possuem pauta diversificada, para reduzir riscos de dependência.         | Alta      | 8 pontos   |
+| US4 | Como tomador de decisões públicas, quero mapear as principais vias de transporte utilizadas, para avaliar custos e gargalos da infraestrutura.         | Alta      | 8 pontos   |
+| US5 | Como tomador de decisões públicas, quero compreender a sazonalidade das exportações, para ajustar estoque e produção conforme a demanda internacional.         | Alta      | 8 pontos   |
+| US6 | Como tomador de decisões públicas, desejo buscar cargas por código SH4 e aplicar filtros personalizados para análises específicas.         | Alta      | 2 pontos   |
+| US7 | Como tomador de decisões públicas quero avaliar a competitividade dos produtos exportados, para medir preço e qualidade em relação aos concorrentes internacionais.         | Média      | 6 pontos   |
+| US8 | Como tomador de decisões públicas, gostaria acessar um painel de estatísticas com visualização gráfica interativa da balança comercial de 2023 a 2025.         | Média      | 6 pontos   |
+| US9 | Como tomador de decisões públicas, quero que todos os dados sejam entregues em inglês, para que possam ser utilizados em relatórios internacionais.         | Baixa      | 2 pontos   |
 
 ---
 
@@ -45,27 +40,25 @@ Validação do painel inicial com segmentação por municípios paulistas e iden
 | Sprint | Entregas Principais                          | Status   |
 |--------|----------------------------------------------|----------|
 | 01     | Base de dados limpa e segmentada (Python), ranking de comércio por município, identificação de mercados emergentes, diagnóstico estratégico (riscos e oportunidades tarifárias) e protótipos/dashboards iniciais no Power BI                       | Concluído|
-| 02     | Dashboard completo no Power BI (comparativos, filtros por SH4 e evolução histórica)                           | Planejado |
+| 02     | Dashboard completo no Power BI (comparativos, filtros por SH4 e evolução histórica)                           | Concluído |
 | 03     | Implementação de filtros avançados e análise de sazonalidade                           | Planejado |
 
 ---
 
 ## 📊 Critérios de Aceitação
-- O MVP deve permitir que o usuário ,visualize e compare municípios paulistas em termos de comércio exterior.  
-- O sistema deve registrar ,base de dados segmentada por município.
-- Métricas coletadas:
-Número de acessos ao painel.
-Tempo médio de carregamento.
-Uso de filtros de análise.  
+- O dashboard deve permitir aplicar filtros múltiplos (município, estado, produto SH4, período).
+- As visualizações devem atualizar-se dinamicamente e sem erros.
+- A comparação entre regiões deve apresentar ranking e variação percentual.
+- A base de dados deve ser atualizada e validada a partir da limpeza realizada em Python.
 
 ---
 
 ## 📈 Métricas de Validação
-- Número de usuários que acessaram/testaram o dashboard.
-- Feedback qualitativo de gestores e empresas (clareza das informações, usabilidade).
-- Indicadores de negócio:
-% de adesão ao uso do painel em sala de aula.
-Identificação de novos mercados emergentes nos dados.  
+- Teste de navegação e interação no dashboard final do Power BI.
+- Coleta de feedback de gestores e analistas sobre clareza e usabilidade das visualizações.
+- Verificação da consistência dos dados filtrados por produto (código SH4).
+- Comparação dos resultados entre municípios e estados para checar coerência dos indicadores.
+- Avaliação do desempenho do painel completo com base real de 2023 a 2025.
 
 ---
 
@@ -79,10 +72,11 @@ Identificação de novos mercados emergentes nos dados.
 ## 📂 Anexos / Evidências
 - Requisitos do Cliente 
 - Slides da API 
-- Relatório Sprint 1
+- Relatório Sprint 2
 - Análise de Políticas Tarifárias
 - Prints/Protótipos do Dashboard (Power BI).
 - Repositório GitHub: API-Grupo-3
-- Dashboard PowerBI em Execução: <td align="center"><video src="https://github.com/user-attachments/assets/1dfb792c-5485-4664-9cd6-955530c92b22"></video></td>
-- Código Python em Execução: <td align="center"><video src="https://github.com/user-attachments/assets/d23b8c75-78b7-4331-aaff-458a78307b17"></video></td>
+- Botões de atalho em Execução: <td align="center"><video src=""></video></td>
+- Busca por Região Metropolitana em Execução: <td align="center"><video src=""></video></td>
+- Busca por SH4 em Execução: <td align="center"><video src=""></video></td>
 
