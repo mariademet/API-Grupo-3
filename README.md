@@ -34,17 +34,18 @@ O objetivo deste projeto é desenvolver uma plataforma de BI que permita visuali
 | 5    | Média      | Como tomador de decisões públicas, preciso avaliar o impacto de políticas tarifárias, para entender riscos e oportunidades das mudanças regulatórias. | 8                  | Concluído dia 30/09 | 1      |
 | 6    | Baixa      | Como tomador de decisões públicas, necessito que todos os dados sejam entregues em inglês, para que possam ser utilizados em relatórios internacionais. | 8                  | Concluído dia 30/09 | 1      |
 | 7    | Alta       | Como tomador de decisões públicas, quero melhorias na visualização dos gráficos, para identificar rapidamente os principais parceiros comerciais e regiões de destaque nas operações. | 8                  | Em Andamento        | 2      |
-| 8    | Alta       | Como tomador de decisões públicas, quero entender se os municípios concentram exportações em poucos produtos ou se possuem pauta diversificada, para reduzir riscos de dependência. | 8                  | Em Andamento        | 2      |
-| 9    | Alta       | Como tomador de decisões públicas, preciso mapear as principais vias de transporte utilizadas, para avaliar custos e gargalos da infraestrutura. | 8                  | Em Andamento        | 2      |
-| 10    | Média      | Como tomador de decisões públicas, quero compreender a sazonalidade das exportações, para ajustar estoque e produção conforme a demanda internacional. | 8                  | Em Andamento        | 2      |
-| 11   | Média      | Como tomador de decisões públicas, desejo buscar cargas por código SH4 e aplicar filtros personalizados para análises específicas. | 8                  | Em Andamento        | 2      |
-| 12   | Baixa      | Como tomador de decisões públicas, necessito que todos os dados sejam entregues em inglês, para que possam ser utilizados em relatórios internacionais. | 8                  | Em Andamento        | 2      |
-| 13   | Alta       | Como tomador de decisões públicas, quero avaliar a competitividade dos produtos exportados, para medir preço e qualidade em relação aos concorrentes internacionais. | 6                  | Em Andamento        | 3      |
-| 14   | Alta       | Como tomador de decisões públicas, quero mapear os principais clientes internacionais das empresas locais, para entender como essas relações impactam a economia. | 6                  | Em Andamento        | 3      |
-| 15   | Alta       | Como tomador de decisões públicas, gostaria de acessar um painel de estatísticas com visualização gráfica interativa da balança comercial de 2023 a 2025. | 6                  | Em Andamento        | 3      |
-| 16   | Média      | Como tomador de decisões públicas, preciso identificar dependência de mercados específicos, para propor alternativas e mitigar vulnerabilidades. | 6                  | Em Andamento        | 3      |
-| 17   | Média      | Como tomador de decisões públicas, quero projetar o desempenho comercial futuro dos municípios, para apoiar decisões de longo prazo. | 6                  | Em Andamento        | 3      |
-| 18   | Baixa      | Como tomador de decisões públicas, necessito que todos os dados sejam entregues em inglês, para que possam ser utilizados em relatórios internacionais. | 2                  | Em Andamento        | 3      |
+| 8    | Alta       | Como tomador de decisões públicas, quero filtrar as cidades do estado de São Paulo por Regiões Metropolitanas para uma melhor visualização | 8                  | Em Andamento        | 2      |
+| 9    | Alta       | Como tomador de decisões públicas, quero entender se os municípios concentram exportações em poucos produtos ou se possuem pauta diversificada, para reduzir riscos de dependência. | 8                  | Em Andamento        | 2      |
+| 10    | Alta       | Como tomador de decisões públicas, preciso mapear as principais vias de transporte utilizadas, para avaliar custos e gargalos da infraestrutura. | 8                  | Em Andamento        | 2      |
+| 11    | Média      | Como tomador de decisões públicas, quero compreender a sazonalidade das exportações, para ajustar estoque e produção conforme a demanda internacional. | 8                  | Em Andamento        | 2      |
+| 12   | Média      | Como tomador de decisões públicas, desejo buscar cargas por código SH4 e aplicar filtros personalizados para análises específicas. | 8                  | Em Andamento        | 2      |
+| 13   | Alta       | Como tomador de decisões públicas, quero avaliar a competitividade dos produtos exportados, para medir preço e qualidade em relação aos concorrentes internacionais. | 6                  | Em Andamento        | 2      |
+| 14   | Alta       | Como tomador de decisões públicas, gostaria de acessar um painel de estatísticas com visualização gráfica interativa da balança comercial de 2023 a 2025. | 6                  | Em Andamento        | 2      |
+| 15   | Baixa      | Como tomador de decisões públicas, necessito que todos os dados sejam entregues em inglês, para que possam ser utilizados em relatórios internacionais. | 8                  | Em Andamento        | 2      |
+| 16   | Alta       | Como tomador de decisões públicas, gostaria de acessar um painel de estatísticas com visualização gráfica interativa da balança comercial de 2023 a 2025. | 6                  | Em Andamento        | 2      |
+| 17   | Média      | Como tomador de decisões públicas, preciso identificar dependência de mercados específicos, para propor alternativas e mitigar vulnerabilidades. | 6                  | Em Andamento        | 3      |
+| 18   | Média      | Como tomador de decisões públicas, quero projetar o desempenho comercial futuro dos municípios, para apoiar decisões de longo prazo. | 6                  | Em Andamento        | 3      |
+| 19   | Baixa      | Como tomador de decisões públicas, necessito que todos os dados sejam entregues em inglês, para que possam ser utilizados em relatórios internacionais. | 2                  | Em Andamento        | 3      |
 
 
 ## Competências desenvolvidas
@@ -60,8 +61,8 @@ O objetivo deste projeto é desenvolver uma plataforma de BI que permita visuali
 | Sprint            | Previsão   | Status   | Histórico |
 |-------------------|------------|----------|-----------|
 | 01                | 02/10/2025 | concluída  | [MVP](https://github.com/mariademet/API-Grupo-3/blob/main/MVP/sp1.md)  |
-| 02                | 23/10/2025 | a fazer  | [MVP](https://github.com/mariademet/API-Grupo-3/blob/main/MVP/sp2.md)  |
-| 03                | 13/11/2025 | a fazer  | [MVP](MVP)  |
+| 02                | 30/10/2025 | a fazer  | [MVP](https://github.com/mariademet/API-Grupo-3/blob/main/MVP/sp2.md)  |
+| 03                | 20/11/2025 | a fazer  | [MVP](MVP)  |
 | Feira de Soluções | 04/12/2025 | a fazer  | [MVP](MVP)  |
 
 
