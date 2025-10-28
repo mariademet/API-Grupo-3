@@ -1,4 +1,4 @@
-# 📌 Sprint 2 - [Consolidação do Dashboard Interativo e Comparativos Detalhados de Exportação e Importação]
+# 📌 Sprint 2 - [ACOMPANHAMENTO DOS RESULTADOS DE EXPORTAÇÃO E IMPORTAÇÃO COM FOCO NA ESTRUTURA ECONÔMICA E LOGÍSTICA DE MUNICÍPIOS DO ESTADO DE SP]
 
 ## 🎯 Objetivo do MVP  
 - Ampliar o projeto desenvolvido na Sprint 1, integrando os filtros de busca por produtos (SH4), comparativos entre municípios e estados, e evolução histórica da balança comercial (2023–2025) em um dashboard final no Power BI.
