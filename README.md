@@ -61,7 +61,7 @@ O objetivo deste projeto é desenvolver uma plataforma de BI que permita visuali
 | Sprint            | Previsão   | Status   | Histórico |
 |-------------------|------------|----------|-----------|
 | 01                | 02/10/2025 | concluída  | [MVP](https://github.com/mariademet/API-Grupo-3/blob/main/MVP/sp1.md)  |
-| 02                | 30/10/2025 | a fazer  | [MVP](https://github.com/mariademet/API-Grupo-3/blob/main/MVP/sp2.md)  |
+| 02                | 30/10/2025 | concluída  | [MVP](https://github.com/mariademet/API-Grupo-3/blob/main/MVP/sp2.md)  |
 | 03                | 20/11/2025 | a fazer  | [MVP](MVP)  |
 | Feira de Soluções | 04/12/2025 | a fazer  | [MVP](MVP)  |
 
