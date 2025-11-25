@@ -45,8 +45,8 @@ Validação do painel inicial com segmentação por municípios paulistas e iden
 | Sprint | Entregas Principais                          | Status   |
 |--------|----------------------------------------------|----------|
 | 01     | Base de dados limpa e segmentada (Python), ranking de comércio por município, identificação de mercados emergentes, diagnóstico estratégico (riscos e oportunidades tarifárias) e protótipos/dashboards iniciais no Power BI                       | Concluído|
-| 02     | Dashboard completo no Power BI (comparativos, filtros por SH4 e evolução histórica)                           | Planejado |
-| 03     | Implementação de filtros avançados e análise de sazonalidade                           | Planejado |
+| 02     | Dashboard completo no Power BI (comparativos, filtros por SH4 e evolução histórica)                         | Planejado |
+| 03     | Painel Interativo Final (2023-2025), Análise de Competitividade, Mapeamento de Clientes e Projeções Macroeconômicas                           | Planejado |
 
 ---
 
